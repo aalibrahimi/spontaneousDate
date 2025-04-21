@@ -1,10 +1,10 @@
-import FavoritesPage from '@/MyComponents/favorites-page'
+
 import { createFileRoute } from '@tanstack/react-router'
 
 
 function Results() {
   return<>
-    <FavoritesPage/>
+    <Results/>
   </>
 }
 
