@@ -1,6 +1,6 @@
-# Tauri + React + Typescript
+# CWA Tauri Template
 
-This template should help get you started developing with Tauri, React and Typescript in Vite.
+CodeWithAli's very own tauri-template app
 
 ## Recommended IDE Setup
 

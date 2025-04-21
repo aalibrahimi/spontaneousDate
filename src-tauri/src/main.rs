@@ -2,5 +2,5 @@
 #![cfg_attr(not(debug_assertions), windows_subsystem = "windows")]
 
 fn main() {
-    spontaneousdate_lib::run()
+    cwa_tauri_template_lib::run()
 }
