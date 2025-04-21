@@ -2,6 +2,7 @@ import { StrictMode } from 'react';
 import ReactDOM from 'react-dom/client';
 import { RouterProvider, createMemoryHistory, createRouter } from '@tanstack/react-router';
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import { Toaster } from "@/components/ui/sonner";
 import './styles/main.css';
 
 // Import the generated route tree
@@ -33,6 +34,7 @@ if (!rootElement.innerHTML) {
     <StrictMode>
       <QueryClientProvider client={queryclient}>
         <RouterProvider router={router} />
+        <Toaster />
       </QueryClientProvider>
     </StrictMode>,
   )
