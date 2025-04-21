@@ -2,12 +2,12 @@ import FavoritesPage from '@/MyComponents/favorites-page'
 import { createFileRoute } from '@tanstack/react-router'
 
 
-function About() {
+function Results() {
   return<>
     <FavoritesPage/>
   </>
 }
 
-export const Route = createFileRoute('/about')({
-  component: About,
+export const Route = createFileRoute('/results')({
+  component: Results,
 })
